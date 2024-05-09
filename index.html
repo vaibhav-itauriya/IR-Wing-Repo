@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IR Wing Scholarships</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="iitk-logo.png" alt="IITK Logo">
+        </div>
+        <h1>International Relations Wing, IIT Kanpur</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#">International Students</a></li>
+            <li><a href="#">Partnerships</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#scholarships">Scholarships</a></li>
+            <li><a href="#applicationform">Apply</a></li>
+        </ul>
+    </nav>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Photo Gallery IIT Kanpur</p>
+        <img src="photo1.jpeg" alt="PK Kelkar Library">
+        <img src="photo2.jpeg" alt="Old Lecture Hall Complex">
+        <img src="photo3.jpeg" alt="Image 2 description">
+        <img src="photo4.jpeg" alt="Hall 12">
+        <img src="photo5.jpeg" alt="New SAC">
+        <img src="photo6.jpeg" alt="Swimming Pool">
+    </section>
+
+    <section id="about-institute">
+        <h2>About Institute</h2>
+        <p>IIT Kanpur (IITK) is a leading institution for engineering education and research in India. With a rich
+            history dating back to 1959, it's renowned for its rigorous academic programs, world-class faculty, and
+            cutting-edge research facilities. IITK emphasizes both theoretical knowledge and practical application,
+            fostering a culture of innovation and entrepreneurship among its students. The institute is known for its
+            strong focus on research, spanning from fundamental sciences to applied engineering. Additionally, IITK
+            offers a vibrant campus life with various extracurricular activities, making it a holistic educational
+            experience.
+        </p>
+    </section>
+
+    <section id="disciplines-offered">
+        <h2>Disciplines Offered</h2>
+        <ul>
+            <h3>Engineering:</h3>
+            <li>Aerospace Engineering</li>
+            <li>Biological Sciences and Bioengineering</li>
+            <li>Chemical Engineering</li>
+            <li>Civil Engineering</li>
+            <li>Computer Science and Engineering</li>
+            <li>Electrical Engineering</li>
+            <li>Materials Science and Engineering</li>
+            <li>Mechanical Engineering</li>
+
+            <h3>Science:</h3>
+            <li>Chemistry</li>
+            </li>Mathematics and Statistics</li>
+            <li>Physics</li>
+
+            <h3>Humanities and Social Sciences:</h3>
+            <li>Economics</li>
+            <li>English</li>
+            <li>Philosophy</li>
+            <li>Psychology</li>
+            <li>Sociology</li>
+
+            <h3>Management:</h3>
+            <li>Industrial and Management Engineering</li>
+
+            <h3>Interdisciplinary Programs:</h3>
+            <li>Environmental Engineering and Management</li>
+            <li>Earth Sciences</li>
+            <!-- Add more disciplines -->
+        </ul>
+    </section>
+
+    <section id="why-iitk">
+        <h2>Why IITK?</h2>
+        <p>
+            IIT Kanpur (IITK) stands out for numerous reasons, making it an excellent choice for aspiring students. With its strong emphasis on academic excellence and world-class faculty, IITK offers a rigorous educational experience across a wide range of engineering disciplines. The institute's focus on research provides students with ample opportunities to engage in cutting-edge projects and contribute to advancements in their fields. Moreover, IITK fosters a culture of innovation and entrepreneurship, empowering students to turn their ideas into successful ventures. The vibrant campus life, international collaborations, and strong alumni network further enrich the student experience. With excellent placements and a holistic approach to education, IITK provides a platform for students to excel academically, professionally, and personally.
+        </p>
+    </section>
+
+    <section id="scholarships">
+        <h2>Scholarships</h2>
+        <main>
+            <section id="scholarship1">
+                <h2>Scholarship 1</h2>
+                <p>Description of Scholarship 1.</p>
+                <p>Eligibility: Criteria for Scholarship 1.</p>
+                <p>Stipend Amount: $XXXX</p>
+                <a href="#">More Details</a> | <a href="#">Apply Now</a>
+            </section>
+            <section id="scholarship2">
+                <h2>Scholarship 2</h2>
+                <p>Description of Scholarship 2.</p>
+                <p>Eligibility: Criteria for Scholarship 2.</p>
+                <p>Stipend Amount: $XXXX</p>
+                <a href="#">More Details</a> | <a href="#">Apply Now</a>
+            </section>
+        </main>
+    </section>
+
+    <!-- Application Portal -->
+    <section id="applicationform">
+        <div class="application-form">
+            <h2>Application Form</h2>
+            <form action="/submit-application" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="discipline">Select Discipline:</label>
+                <select id="discipline" name="discipline" required>
+                    <option value="">Select Discipline</option>
+                    <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+                    <option value="Mechanical Engineering">Mechanical Engineering</option>
+                    <option value="Electrical Engineering">Electrical Engineering</option>
+                    <option value="Chemical Engineering">Electrical Engineering</option>
+                    <option value="Civil Engineering">Civil Engineering</option>
+                    <option value="Economics">Economics</option>
+                    <option value="Earth Science">Earth Science</option>
+                    <option value="Biological Science and Biological Engineering">Biological Science and Biological
+                        Engineering</option>
+                    <option value="Material Science and Engineering">Material Science and Engineering</option>
+                    <option value="Others">Others</option>
+                    <!-- Add more disciplines -->
+                </select>
+
+                <label for="gpa">GPA:</label>
+                <input type="text" id="gpa" name="gpa" required>
+
+                <label for="scholarship">Scholarship (if applicable):</label>
+                <input type="text" id="scholarship" name="gpa">
+
+                <label for="essay">Statement of Purpose:</label>
+                <textarea id="essay" name="essay" required></textarea>
+
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 IR Wing. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
